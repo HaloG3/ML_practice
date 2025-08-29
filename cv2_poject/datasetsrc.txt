@@ -1,0 +1,18 @@
+dataset :  https://universe.roboflow.com/tfg-gh7jg/ant-detection-gfju4/dataset/1
+
+github repo for reading : 
+https://github.com/ris-tlp/Ant-Detection
+
+
+
+Ant detection model 
+
+- extreme small object detectionmodel 
+Need a dataset with ants and different kinds of ants
+- ants are mostly black so we can convert the images to black and white for reduce the size
+- ants are similar in shape so we can also draw some borders on edges and then convert the image to 2d  less in size 
+
+- ants are mostly on group and near the group so color of the ground is  dark also  
+And the grass is ilso a big noise in the dataset
+-
+
